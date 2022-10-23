@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "N": {
+            "item": "examplemod:neco_arc"
+        }
+    },
+    "pattern": [
+        "NN",
+        "NN"
+    ],
+    "result": {
+        "item": "examplemod:neco_arc_block",
+        "count": 1
+    }
+}
