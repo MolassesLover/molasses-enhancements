@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "molassesenhancements",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Molasses' Enhancements",
+  "description": "Various gameplay changes by MolassesLover!",
   "authors": [
-    "Me!"
+    "MolassesLover"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://molasseslover.github.io/",
+    "sources": "https://github.com/MolassesLover/MolassesEnhancements"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "Apache v2.0 or MIT",
+  "icon": "assets/molassesenhancements/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "media.syrup.molassesenhancements.MolassesEnhancements"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "molassesenhancements.mixins.json"
   ],
 
   "depends": {

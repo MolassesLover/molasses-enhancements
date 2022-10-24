@@ -1,6 +1,6 @@
-package net.fabricmc.example.mixin;
+package media.syrup.molassesenhancements.mixin;
 
-import net.fabricmc.example.ExampleMod;
+import media.syrup.molassesenhancements.MolassesEnhancements;
 import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
@@ -8,9 +8,9 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Mixin(TitleScreen.class)
-public class ExampleMixin {
+public class GenericMixin {
 	@Inject(at = @At("HEAD"), method = "init()V")
 	private void init(CallbackInfo info) {
-		ExampleMod.LOGGER.info("This line is printed by an example mod mixin!");
+		MolassesEnhancements.LOGGER.info("Initializing Molasses' Enhancements...");
 	}
 }

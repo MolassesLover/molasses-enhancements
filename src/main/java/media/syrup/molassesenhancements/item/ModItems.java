@@ -1,6 +1,6 @@
-package net.fabricmc.example.item;
+package media.syrup.molassesenhancements.item;
 
-import net.fabricmc.example.ExampleMod;
+import media.syrup.molassesenhancements.MolassesEnhancements;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -13,10 +13,10 @@ public class ModItems {
         new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
     private static Item registerItem(String name, Item item) {
-        return Registry.register(Registry.ITEM, new Identifier(ExampleMod.MOD_ID, name), item);
+        return Registry.register(Registry.ITEM, new Identifier(MolassesEnhancements.MOD_ID, name), item);
     }
 
     public static void registerModItems() {
-        ExampleMod.LOGGER.debug("Registering mod items for " + ExampleMod.MOD_ID);
+        MolassesEnhancements.LOGGER.debug("Registering mod items for " + MolassesEnhancements.MOD_ID);
     }
 }

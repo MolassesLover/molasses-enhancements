@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shaped",
     "key": {
         "N": {
-            "item": "examplemod:neco_arc"
+            "item": "molassesenhancements:neco_arc"
         }
     },
     "pattern": [
@@ -10,7 +10,7 @@
         "NN"
     ],
     "result": {
-        "item": "examplemod:neco_arc_block",
+        "item": "molassesenhancements:neco_arc_block",
         "count": 1
     }
 }

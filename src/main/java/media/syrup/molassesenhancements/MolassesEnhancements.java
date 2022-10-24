@@ -1,17 +1,17 @@
-package net.fabricmc.example;
+package media.syrup.molassesenhancements;
 
 import net.fabricmc.api.ModInitializer;
-import net.fabricmc.example.block.ModBlocks;
-import net.fabricmc.example.item.ModItems;
+import media.syrup.molassesenhancements.block.ModBlocks;
+import media.syrup.molassesenhancements.item.ModItems;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class ExampleMod implements ModInitializer {
+public class MolassesEnhancements implements ModInitializer {
 	// This logger is used to write text to the console and the log file.
 	// It is considered best practice to use your mod id as the logger's name.
 	// That way, it's clear which mod wrote info, warnings, and errors.
-	public static final String MOD_ID = "examplemod";
+	public static final String MOD_ID = "molassesenhancements";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 	@Override
@@ -20,7 +20,7 @@ public class ExampleMod implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
-		LOGGER.info("Hello Fabric world!");
+		LOGGER.info("Using Molasses' Enhancements! 🥞");
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 	}
