@@ -16,7 +16,7 @@ public class ModBlocks {
         new Block(FabricBlockSettings.of(Material.WOOL).breakInstantly()), ItemGroup.DECORATIONS);
 
     public static final Block ANDESITE_BRICKS = registerBlock("andesite_bricks",
-            new Block(FabricBlockSettings.of(Material.STONE).breakInstantly()), ItemGroup.BUILDING_BLOCKS);
+            new Block(FabricBlockSettings.of(Material.STONE)), ItemGroup.BUILDING_BLOCKS);
 
     private static Block registerBlock(String name, Block block, ItemGroup tab) {
         registerBlockItem(name, block, tab);
