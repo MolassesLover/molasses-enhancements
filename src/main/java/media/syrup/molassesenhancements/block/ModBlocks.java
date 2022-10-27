@@ -15,6 +15,9 @@ public class ModBlocks {
     public static final Block NECO_ARC_BLOCK = registerBlock("neco_arc_block", 
         new Block(FabricBlockSettings.of(Material.WOOL).breakInstantly()), ItemGroup.DECORATIONS);
 
+    public static final Block ANDESITE_BRICKS = registerBlock("andesite_bricks",
+            new Block(FabricBlockSettings.of(Material.STONE).breakInstantly()), ItemGroup.BUILDING_BLOCKS);
+
     private static Block registerBlock(String name, Block block, ItemGroup tab) {
         registerBlockItem(name, block, tab);
         return Registry.register(Registry.BLOCK, new Identifier(MolassesEnhancements.MOD_ID, name), block);
