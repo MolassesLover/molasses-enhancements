@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "molassesenhancements:diorite_bricks"
+  },
+  "result": "molassesenhancements:cracked_diorite_bricks"
+}

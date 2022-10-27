@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "X": {
+            "item": "molassesenhancements:granite_bricks"
+        }
+    },
+    "pattern": [
+        "X  ",
+        "XX ",
+        "XXX"
+    ],
+    "result": {
+        "item": "molassesenhancements:granite_brick_stairs",
+        "count": 4
+    }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": {
+      "item": "minecraft:polished_andesite"
+    }
+  },
+  "pattern": [
+    "XX",
+    "XX"
+  ],
+  "result": {
+    "item": "molassesenhancements:andesite_bricks",
+    "count": 4
+  }
+}

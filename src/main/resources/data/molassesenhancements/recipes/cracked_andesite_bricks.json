@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "molassesenhancements:andesite_bricks"
+  },
+  "result": "molassesenhancements:cracked_andesite_bricks"
+}

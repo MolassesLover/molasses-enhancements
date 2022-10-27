@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "molassesenhancements:obsidian_bricks"
+  },
+  "result": "molassesenhancements:cracked_obsidian_bricks"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": {
+      "item": "minecraft:polished_diorite"
+    }
+  },
+  "pattern": [
+    "XX",
+    "XX"
+  ],
+  "result": {
+    "item": "molassesenhancements:diorite_bricks",
+    "count": 4
+  }
+}
