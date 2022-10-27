@@ -1,6 +1,7 @@
 package media.syrup.molassesenhancements.block;
 
 import media.syrup.molassesenhancements.MolassesEnhancements;
+import media.syrup.molassesenhancements.block.custom.ModSlabBlock;
 import media.syrup.molassesenhancements.block.custom.ModStairsBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -28,6 +29,9 @@ public class ModBlocks {
     public static final Block ANDESITE_BRICK_STAIRS = registerBlock("andesite_brick_stairs",
         new ModStairsBlock(ANDESITE_BRICKS.getDefaultState(), FabricBlockSettings.copy(ANDESITE_BRICKS)), ItemGroup.BUILDING_BLOCKS);
 
+    public static final Block ANDESITE_BRICK_SLAB = registerBlock("andesite_brick_slab",
+        new ModSlabBlock(FabricBlockSettings.copy(ANDESITE_BRICKS)), ItemGroup.BUILDING_BLOCKS);         
+
     public static final Block DIORITE_BRICKS = registerBlock("diorite_bricks",
         new Block(FabricBlockSettings.of(Material.STONE)), ItemGroup.BUILDING_BLOCKS);
 
@@ -39,6 +43,9 @@ public class ModBlocks {
 
     public static final Block DIORITE_BRICK_STAIRS = registerBlock("diorite_brick_stairs",
         new ModStairsBlock(DIORITE_BRICKS.getDefaultState(), FabricBlockSettings.copy(DIORITE_BRICKS)), ItemGroup.BUILDING_BLOCKS);
+
+    public static final Block DIORITE_BRICK_SLAB = registerBlock("diorite_brick_slab",
+            new ModSlabBlock(FabricBlockSettings.copy(ANDESITE_BRICKS)), ItemGroup.BUILDING_BLOCKS);
 
     public static final Block GRANITE_BRICKS = registerBlock("granite_bricks",
         new Block(FabricBlockSettings.of(Material.STONE)), ItemGroup.BUILDING_BLOCKS);
@@ -52,6 +59,9 @@ public class ModBlocks {
     public static final Block GRANITE_BRICK_STAIRS = registerBlock("granite_brick_stairs",
         new ModStairsBlock(GRANITE_BRICKS.getDefaultState(), FabricBlockSettings.copy(GRANITE_BRICKS)), ItemGroup.BUILDING_BLOCKS);
 
+    public static final Block GRANITE_BRICK_SLAB = registerBlock("granite_brick_slab",
+        new ModSlabBlock(FabricBlockSettings.copy(ANDESITE_BRICKS)), ItemGroup.BUILDING_BLOCKS);  
+
     public static final Block OBSIDIAN_BRICKS = registerBlock("obsidian_bricks",
         new Block(FabricBlockSettings.of(Material.STONE).hardness(50)), ItemGroup.BUILDING_BLOCKS);
 
@@ -60,6 +70,9 @@ public class ModBlocks {
 
     public static final Block OBSIDIAN_BRICK_STAIRS = registerBlock("obsidian_brick_stairs",
         new ModStairsBlock(OBSIDIAN_BRICKS.getDefaultState(), FabricBlockSettings.copy(OBSIDIAN_BRICKS)), ItemGroup.BUILDING_BLOCKS);
+
+    public static final Block OBSIDIAN_BRICK_SLAB = registerBlock("obsidian_brick_slab",
+        new ModSlabBlock(FabricBlockSettings.copy(ANDESITE_BRICKS)), ItemGroup.BUILDING_BLOCKS);  
 
     private static Block registerBlock(String name, Block block, ItemGroup tab) {
         registerBlockItem(name, block, tab);
