@@ -33,7 +33,7 @@ public class ModBlocks {
         new ModSlabBlock(FabricBlockSettings.copy(ANDESITE_BRICKS)), ItemGroup.BUILDING_BLOCKS);         
 
     public static final Block DIORITE_BRICKS = registerBlock("diorite_bricks",
-        new Block(FabricBlockSettings.of(Material.STONE).hardness(0.15f).resistance(0.6f)   ), ItemGroup.BUILDING_BLOCKS);
+        new Block(FabricBlockSettings.of(Material.STONE).hardness(0.15f).resistance(0.6f)), ItemGroup.BUILDING_BLOCKS);
 
     public static final Block CRACKED_DIORITE_BRICKS = registerBlock("cracked_diorite_bricks",
         new Block(FabricBlockSettings.of(Material.STONE).hardness(0.15f).resistance(0.6f)), ItemGroup.BUILDING_BLOCKS);
