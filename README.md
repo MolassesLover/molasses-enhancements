@@ -1,6 +1,8 @@
 # Molasses' Enhancements
 [![Ko-Fi](https://img.shields.io/badge/donate-kofi-blue?style=for-the-badge&logo=ko-fi&color=E35B57&logoColor=FFFFFF&labelColor=232323)](https://ko-fi.com/molasses)
 [![Patreon](https://img.shields.io/badge/donate-patreon-blue?style=for-the-badge&logo=patreon&color=E35B57&logoColor=FFFFFF&labelColor=232323)](https://www.patreon.com/molasseslover)
+[![CurseForge](https://img.shields.io/badge/curseforge-blue?style=for-the-badge&logo=curseforge&color=E35B57&logoColor=FFFFFF&labelColor=232323)](https://www.curseforge.com/minecraft/mc-mods/molasses-enhancements)
+
 
 A Minecraft mod for [Fabric](https://github.com/FabricMC), adding various new building blocks!
 
@@ -11,6 +13,6 @@ of the [Apache v2.0 license](LICENSE-APACHE.md) or
 
 ## Preview
 
-![](docs/img/preview-1.jpg)
-![](docs/img/preview-2.jpg)
-![](docs/img/preview-3.jpg)
+![](docs/img/preview-1.png)
+![](docs/img/preview-2.png)
+![](docs/img/preview-3.png)
