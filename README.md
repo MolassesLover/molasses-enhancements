@@ -13,6 +13,7 @@ of the [Apache v2.0 license](LICENSE-APACHE.md) or
 
 ## Preview
 
+![](docs/img/preview-4.png)
 ![](docs/img/preview-1.png)
 ![](docs/img/preview-2.png)
 ![](docs/img/preview-3.png)
