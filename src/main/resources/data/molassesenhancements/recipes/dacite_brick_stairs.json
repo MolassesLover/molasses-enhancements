@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "X": {
+            "item": "molassesenhancements:dacite_bricks"
+        }
+    },
+    "pattern": [
+        "X  ",
+        "XX ",
+        "XXX"
+    ],
+    "result": {
+        "item": "molassesenhancements:dacite_brick_stairs",
+        "count": 4
+    }
+}

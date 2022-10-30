@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "type=bottom": {
+            "model": "molassesenhancements:block/dacite_brick_slab"
+        },
+        "type=double": {
+            "model": "molassesenhancements:block/dacite_bricks"
+        },
+        "type=top": {
+            "model": "molassesenhancements:block/dacite_brick_slab_top"
+        }
+    }
+}

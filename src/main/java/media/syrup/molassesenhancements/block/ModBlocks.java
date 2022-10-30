@@ -32,6 +32,27 @@ public class ModBlocks {
     public static final Block ANDESITE_BRICK_SLAB = registerBlock("andesite_brick_slab",
         new ModSlabBlock(FabricBlockSettings.copy(ANDESITE_BRICKS)), ItemGroup.BUILDING_BLOCKS);         
 
+    public static final Block DACITE = registerBlock("dacite",
+        new Block(FabricBlockSettings.of(Material.STONE).hardness(0.15f).resistance(0.6f)), ItemGroup.BUILDING_BLOCKS);
+
+    public static final Block POLISHED_DACITE = registerBlock("polished_dacite",
+        new Block(FabricBlockSettings.of(Material.STONE).hardness(0.15f).resistance(0.6f)), ItemGroup.BUILDING_BLOCKS);
+
+    public static final Block DACITE_BRICKS = registerBlock("dacite_bricks",
+        new Block(FabricBlockSettings.of(Material.STONE).hardness(0.15f).resistance(0.6f)), ItemGroup.BUILDING_BLOCKS);
+
+    public static final Block CRACKED_DACITE_BRICKS = registerBlock("cracked_dacite_bricks",
+        new Block(FabricBlockSettings.of(Material.STONE).hardness(0.15f).resistance(0.6f)), ItemGroup.BUILDING_BLOCKS);
+
+    public static final Block MOSSY_DACITE_BRICKS = registerBlock("mossy_dacite_bricks",
+        new Block(FabricBlockSettings.of(Material.STONE).hardness(0.15f).resistance(0.6f)), ItemGroup.BUILDING_BLOCKS);
+
+    public static final Block DACITE_BRICK_STAIRS = registerBlock("dacite_brick_stairs",
+        new ModStairsBlock(DACITE_BRICKS.getDefaultState(), FabricBlockSettings.copy(DACITE_BRICKS)), ItemGroup.BUILDING_BLOCKS);
+
+    public static final Block DACITE_BRICK_SLAB = registerBlock("dacite_brick_slab",
+        new ModSlabBlock(FabricBlockSettings.copy(DACITE_BRICKS)), ItemGroup.BUILDING_BLOCKS);         
+
     public static final Block DIORITE_BRICKS = registerBlock("diorite_bricks",
         new Block(FabricBlockSettings.of(Material.STONE).hardness(0.15f).resistance(0.6f)), ItemGroup.BUILDING_BLOCKS);
 
