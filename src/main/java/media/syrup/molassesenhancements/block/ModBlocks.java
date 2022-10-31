@@ -35,6 +35,9 @@ public class ModBlocks {
     public static final Block DACITE = registerBlock("dacite",
         new Block(FabricBlockSettings.of(Material.STONE).hardness(0.15f).resistance(0.6f)), ItemGroup.BUILDING_BLOCKS);
 
+    public static final Block COBBLED_DACITE = registerBlock("cobbled_dacite",
+        new Block(FabricBlockSettings.of(Material.STONE).hardness(0.15f).resistance(0.6f)), ItemGroup.BUILDING_BLOCKS);
+
     public static final Block POLISHED_DACITE = registerBlock("polished_dacite",
         new Block(FabricBlockSettings.of(Material.STONE).hardness(0.15f).resistance(0.6f)), ItemGroup.BUILDING_BLOCKS);
 
