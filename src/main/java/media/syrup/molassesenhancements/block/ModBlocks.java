@@ -108,4 +108,6 @@ public class ModBlocks {
     public static void registerModBlocks() {
         MolassesEnhancements.LOGGER.debug("Registering mod blocks for " + MolassesEnhancements.MOD_ID);
     }
+    public static final Block RIVER_STONES = registerBlock("river_stones", 
+        new Block(FabricBlockSettings.of(Material.WOOL).breakInstantly()), ItemGroup.DECORATIONS);
 }
