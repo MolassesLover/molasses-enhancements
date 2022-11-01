@@ -112,8 +112,8 @@ public class ModBlocks {
         MolassesEnhancements.LOGGER.debug("Registering mod blocks for " + MolassesEnhancements.MOD_ID);
     }
     public static final Block RIVER_STONES = registerBlock("river_stones", 
-        new Block(FabricBlockSettings.of(Material.STONE).breakInstantly()), ItemGroup.DECORATIONS);
+        new Block(FabricBlockSettings.of(Material.STONE).hardness(0.15f).resistance(0.6f)), ItemGroup.DECORATIONS);
 
     public static final Block MOSSY_RIVER_STONES = registerBlock("mossy_river_stones", 
-        new Block(FabricBlockSettings.of(Material.STONE).breakInstantly()), ItemGroup.DECORATIONS);
+        new Block(FabricBlockSettings.of(Material.STONE).hardness(0.15f).resistance(0.6f)), ItemGroup.DECORATIONS);
 }
