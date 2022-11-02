@@ -115,7 +115,7 @@ public class ModBlocks {
         new ModStairsBlock(OBSIDIAN_BRICKS.getDefaultState(), FabricBlockSettings.copy(OBSIDIAN_BRICKS)), ItemGroup.BUILDING_BLOCKS);
 
     public static final Block OBSIDIAN_BRICK_SLAB = registerBlock("obsidian_brick_slab",
-        new ModSlabBlock(FabricBlockSettings.copy(ANDESITE_BRICKS)), ItemGroup.BUILDING_BLOCKS);  
+        new ModSlabBlock(FabricBlockSettings.copy(OBSIDIAN_BRICKS)), ItemGroup.BUILDING_BLOCKS);  
 
     public static final Block OBSIDIAN_BRICK_WALL = registerBlock("obsidian_brick_wall",
         new ModWallBlock(FabricBlockSettings.copy(OBSIDIAN_BRICKS)), ItemGroup.DECORATIONS);
