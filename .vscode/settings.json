@@ -1,7 +1,0 @@
-{
-    "files.exclude": {
-        "**/.gradle*": true,
-        "**/gradlew*": true
-    },
-    "java.configuration.updateBuildConfiguration": "interactive"
-}
