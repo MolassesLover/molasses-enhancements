@@ -6,6 +6,22 @@
 
 A Minecraft mod for [Fabric](https://github.com/FabricMC), adding various new building blocks!
 
+# Cloning
+This repository uses Git submodules in the [`dev/`](dev/),
+directory. Make sure to clone those in order to use 
+development scripts. 
+
+```sh
+➜ git clone --recursive https://github.com/MolassesLover/MolassesEnhancements
+```
+
+If you already cloned the repository without submodules;
+make sure to run these commands:
+```sh
+➜ git submodule init
+➜ git submodule update
+```
+
 ## License
 Molasses' Enhancements is available under the terms
 of the [Apache v2.0 license](LICENSE-APACHE.md) or 

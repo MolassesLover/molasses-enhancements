@@ -1,0 +1,3 @@
+[submodule "dev/mcJSON"]
+	path = dev/mcJSON
+	url = https://github.com/MolassesLover/mcJSON.git
