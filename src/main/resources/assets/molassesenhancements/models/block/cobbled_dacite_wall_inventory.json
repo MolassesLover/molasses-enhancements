@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/wall_inventory",
   "textures": {
-    "wall": "molassesenhancements:block/granite_bricks"
+    "wall": "molassesenhancements:block/cobbled_dacite"
   }
 }

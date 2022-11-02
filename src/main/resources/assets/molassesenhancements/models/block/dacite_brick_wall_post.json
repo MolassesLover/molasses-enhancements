@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/template_wall_post",
   "textures": {
-    "wall": "minecraft:block/dacite_bricks"
+    "wall": "molassesenhancements:block/dacite_bricks"
   }
 }

@@ -3,6 +3,7 @@ package media.syrup.molassesenhancements.block;
 import media.syrup.molassesenhancements.MolassesEnhancements;
 import media.syrup.molassesenhancements.block.custom.ModSlabBlock;
 import media.syrup.molassesenhancements.block.custom.ModStairsBlock;
+import media.syrup.molassesenhancements.block.custom.ModWallBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.item.BlockItem;
@@ -30,19 +31,31 @@ public class ModBlocks {
         new ModStairsBlock(ANDESITE_BRICKS.getDefaultState(), FabricBlockSettings.copy(ANDESITE_BRICKS)), ItemGroup.BUILDING_BLOCKS);
 
     public static final Block ANDESITE_BRICK_SLAB = registerBlock("andesite_brick_slab",
-        new ModSlabBlock(FabricBlockSettings.copy(ANDESITE_BRICKS)), ItemGroup.BUILDING_BLOCKS);         
+        new ModSlabBlock(FabricBlockSettings.copy(ANDESITE_BRICKS)), ItemGroup.BUILDING_BLOCKS);
+
+    public static final Block ANDESITE_BRICK_WALL = registerBlock("andesite_brick_wall",
+        new ModWallBlock(FabricBlockSettings.copy(ANDESITE_BRICKS)), ItemGroup.DECORATIONS);   
 
     public static final Block DACITE = registerBlock("dacite",
         new Block(FabricBlockSettings.of(Material.STONE).hardness(0.15f).resistance(0.6f)), ItemGroup.BUILDING_BLOCKS);
 
+        public static final Block DACITE_WALL = registerBlock("dacite_wall",
+            new ModWallBlock(FabricBlockSettings.copy(DACITE)), ItemGroup.DECORATIONS);
+        
     public static final Block COBBLED_DACITE = registerBlock("cobbled_dacite",
         new Block(FabricBlockSettings.of(Material.STONE).hardness(0.15f).resistance(0.6f)), ItemGroup.BUILDING_BLOCKS);
+
+    public static final Block COBBLED_DACITE_WALL = registerBlock("cobbled_dacite_wall",
+        new ModWallBlock(FabricBlockSettings.copy(COBBLED_DACITE)), ItemGroup.DECORATIONS);
 
     public static final Block POLISHED_DACITE = registerBlock("polished_dacite",
         new Block(FabricBlockSettings.of(Material.STONE).hardness(0.15f).resistance(0.6f)), ItemGroup.BUILDING_BLOCKS);
 
     public static final Block DACITE_BRICKS = registerBlock("dacite_bricks",
         new Block(FabricBlockSettings.of(Material.STONE).hardness(0.15f).resistance(0.6f)), ItemGroup.BUILDING_BLOCKS);
+
+    public static final Block DACITE_BRICK_WALL = registerBlock("dacite_brick_wall",
+        new ModWallBlock(FabricBlockSettings.copy(DACITE_BRICKS)), ItemGroup.DECORATIONS);
 
     public static final Block CRACKED_DACITE_BRICKS = registerBlock("cracked_dacite_bricks",
         new Block(FabricBlockSettings.of(Material.STONE).hardness(0.15f).resistance(0.6f)), ItemGroup.BUILDING_BLOCKS);
@@ -71,6 +84,9 @@ public class ModBlocks {
     public static final Block DIORITE_BRICK_SLAB = registerBlock("diorite_brick_slab",
             new ModSlabBlock(FabricBlockSettings.copy(ANDESITE_BRICKS)), ItemGroup.BUILDING_BLOCKS);
 
+    public static final Block DIORITE_BRICK_WALL = registerBlock("diorite_brick_wall",
+        new ModWallBlock(FabricBlockSettings.copy(DIORITE_BRICKS)), ItemGroup.DECORATIONS);
+
     public static final Block GRANITE_BRICKS = registerBlock("granite_bricks",
         new Block(FabricBlockSettings.of(Material.STONE).hardness(0.15f).resistance(0.6f)), ItemGroup.BUILDING_BLOCKS);
 
@@ -86,6 +102,9 @@ public class ModBlocks {
     public static final Block GRANITE_BRICK_SLAB = registerBlock("granite_brick_slab",
         new ModSlabBlock(FabricBlockSettings.copy(ANDESITE_BRICKS)), ItemGroup.BUILDING_BLOCKS);  
 
+    public static final Block GRANITE_BRICK_WALL = registerBlock("granite_brick_wall",
+        new ModWallBlock(FabricBlockSettings.copy(GRANITE_BRICKS)), ItemGroup.DECORATIONS);
+
     public static final Block OBSIDIAN_BRICKS = registerBlock("obsidian_bricks",
         new Block(FabricBlockSettings.of(Material.STONE).hardness(10.0f).resistance(120.0f)), ItemGroup.BUILDING_BLOCKS);
 
@@ -97,6 +116,9 @@ public class ModBlocks {
 
     public static final Block OBSIDIAN_BRICK_SLAB = registerBlock("obsidian_brick_slab",
         new ModSlabBlock(FabricBlockSettings.copy(ANDESITE_BRICKS)), ItemGroup.BUILDING_BLOCKS);  
+
+    public static final Block OBSIDIAN_BRICK_WALL = registerBlock("obsidian_brick_wall",
+        new ModWallBlock(FabricBlockSettings.copy(OBSIDIAN_BRICKS)), ItemGroup.DECORATIONS);
 
     private static Block registerBlock(String name, Block block, ItemGroup tab) {
         registerBlockItem(name, block, tab);

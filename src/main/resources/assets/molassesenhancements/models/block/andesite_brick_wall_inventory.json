@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/wall_inventory",
   "textures": {
-    "wall": "minecraft:block/andesite_bricks"
+    "wall": "molassesenhancements:block/andesite_bricks"
   }
 }
