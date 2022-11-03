@@ -1,7 +1,6 @@
 {
-    "variants": {
-      "": {
-        "model": "molassesenhancements:block/DACITE_PILLAR"
-      }
-    }
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "molassesenhancements:block/dacite_pillar"
   }
+}
