@@ -1,7 +1,7 @@
 {
-    "variants": {
-      "": {
-        "model": "molassesenhancements:block/dacite_pillar"
-      }
+  "variants": {
+    "": {
+      "model": "molassesenhancements:block/dacite_pillar"
     }
   }
+}
