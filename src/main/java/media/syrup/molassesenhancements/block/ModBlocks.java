@@ -1,6 +1,7 @@
 package media.syrup.molassesenhancements.block;
 
 import media.syrup.molassesenhancements.MolassesEnhancements;
+import media.syrup.molassesenhancements.block.custom.ModPillarBlock;
 import media.syrup.molassesenhancements.block.custom.ModSlabBlock;
 import media.syrup.molassesenhancements.block.custom.ModStairsBlock;
 import media.syrup.molassesenhancements.block.custom.ModWallBlock;
@@ -40,7 +41,7 @@ public class ModBlocks {
         new Block(FabricBlockSettings.of(Material.STONE).hardness(0.15f).resistance(0.6f)), ItemGroup.BUILDING_BLOCKS);
     
     public static final Block DACITE_PILLAR = registerBlock("dacite_pillar",
-        new Block(FabricBlockSettings.of(Material.STONE).hardness(0.15f).resistance(0.6f)), ItemGroup.BUILDING_BLOCKS);
+        new ModPillarBlock(FabricBlockSettings.of(Material.STONE).hardness(0.15f).resistance(0.6f)), ItemGroup.BUILDING_BLOCKS);
 
     public static final Block DACITE_WALL = registerBlock("dacite_wall",
             new ModWallBlock(FabricBlockSettings.copy(DACITE)), ItemGroup.DECORATIONS);
