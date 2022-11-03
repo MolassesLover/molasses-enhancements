@@ -1,5 +1,5 @@
 {
-    "parent": "minecraft:block/slab",
+    "parent": "minecraft:block/slab_top",
     "textures": {
         "bottom": "molassesenhancements:block/diorite_bricks",
         "side": "molassesenhancements:block/diorite_bricks",
