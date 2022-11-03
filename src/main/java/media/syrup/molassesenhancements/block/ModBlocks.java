@@ -38,8 +38,11 @@ public class ModBlocks {
 
     public static final Block DACITE = registerBlock("dacite",
         new Block(FabricBlockSettings.of(Material.STONE).hardness(0.15f).resistance(0.6f)), ItemGroup.BUILDING_BLOCKS);
+    
+    public static final Block DACITE_PILLAR = registerBlock("dacite_pillar",
+        new Block(FabricBlockSettings.of(Material.STONE).hardness(0.15f).resistance(0.6f)), ItemGroup.BUILDING_BLOCKS);
 
-        public static final Block DACITE_WALL = registerBlock("dacite_wall",
+    public static final Block DACITE_WALL = registerBlock("dacite_wall",
             new ModWallBlock(FabricBlockSettings.copy(DACITE)), ItemGroup.DECORATIONS);
         
     public static final Block COBBLED_DACITE = registerBlock("cobbled_dacite",
