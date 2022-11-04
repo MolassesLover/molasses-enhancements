@@ -24,11 +24,17 @@ make sure to run these commands:
 ```
 
 ## License
+### Code
 The source code (kept in the [`src/main/java`](src/main/java) directory) 
 is licensed under the [Apache v2.0 license](LICENSE-APACHE.md) or 
-[MIT license](LICENSE-MIT.md) at your choice. Art assets (kept in the
+[MIT license](LICENSE-MIT.md) at your choice. 
+
+### Art
+Art assets (kept in the
 [`src/main/resources`](src/main/resources) directory) are licensed 
 under [Creative Commons Attribution-ShareAlike v4.0](LICENSE-CC-BY-SA.md).
+
+### Translations
 The `en_us.json` file despite being in the 
 [`src/main/resources`](src/main/resources) directory is licensed under 
 [Creative Commons Zero](LICENSE-CC0.md)
