@@ -4,7 +4,8 @@
 [![CurseForge](https://img.shields.io/badge/curseforge-blue?style=for-the-badge&logo=curseforge&color=E35B57&logoColor=FFFFFF&labelColor=232323)](https://www.curseforge.com/minecraft/mc-mods/molasses-enhancements)
 
 
-A Minecraft mod for [Fabric](https://github.com/FabricMC), adding various new building blocks!
+A Minecraft mod for [Fabric](https://github.com/FabricMC), 
+adding various new building blocks!
 
 # Cloning
 This repository uses Git submodules in the [`dev/`](dev/),
@@ -23,9 +24,14 @@ make sure to run these commands:
 ```
 
 ## License
-Molasses' Enhancements is available under the terms
-of the [Apache v2.0 license](LICENSE-APACHE.md) or 
-[MIT license](LICENSE-MIT.md), at your choice.
+The source code (kept in the [`src/main/java`](src/main/java) directory) 
+is licensed under [Apache v2.0 license](LICENSE-APACHE.md) or 
+[MIT license](LICENSE-MIT.md) at your choice. Art assets (kept in the
+[`src/main/resources`](src/main/resources) directory) are licensed 
+under [Creative Commons Attribution-ShareAlike v4.0](LICENSE-CC-BY-SA.md).
+The `en_us.json` file despite being in the 
+[`src/main/resources`](src/main/resources) directory is licensed under 
+[Creative Commons Zero](LICENSE-CC0.md)
 
 ## Preview
 
