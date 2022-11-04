@@ -25,7 +25,7 @@ make sure to run these commands:
 
 ## License
 The source code (kept in the [`src/main/java`](src/main/java) directory) 
-is licensed under [Apache v2.0 license](LICENSE-APACHE.md) or 
+is licensed under the [Apache v2.0 license](LICENSE-APACHE.md) or 
 [MIT license](LICENSE-MIT.md) at your choice. Art assets (kept in the
 [`src/main/resources`](src/main/resources) directory) are licensed 
 under [Creative Commons Attribution-ShareAlike v4.0](LICENSE-CC-BY-SA.md).
