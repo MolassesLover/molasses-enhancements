@@ -25,18 +25,18 @@ make sure to run these commands:
 
 ## License
 ### Code
-The source code (kept in the [`src/main/java`](src/main/java) directory) 
+The source code (kept in the [`src/main/java/`](src/main/java) directory) 
 is licensed under the [Apache v2.0 license](LICENSE-APACHE.md) or 
 [MIT license](LICENSE-MIT.md) at your choice. 
 
 ### Art
 Art assets (kept in the
-[`src/main/resources`](src/main/resources) directory) are licensed 
+[`src/main/resources/`](src/main/resources) directory) are licensed 
 under [Creative Commons Attribution-ShareAlike v4.0](LICENSE-CC-BY-SA.md).
 
 ### Translations
 The contents of the [`lang/`](src/main/resources/assets/molassesenhancements/lang) 
-directory (despite being in the [`src/main/resources`](src/main/resources) directory) 
+directory (despite being in the [`src/main/resources/`](src/main/resources) directory) 
 are licensed under  the [Creative Commons Zero](LICENSE-CC0.md) license.
 
 ## Preview
