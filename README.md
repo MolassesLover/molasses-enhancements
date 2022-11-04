@@ -35,9 +35,9 @@ Art assets (kept in the
 under [Creative Commons Attribution-ShareAlike v4.0](LICENSE-CC-BY-SA.md).
 
 ### Translations
-The `en_us.json` file despite being in the 
-[`src/main/resources`](src/main/resources) directory is licensed under 
-[Creative Commons Zero](LICENSE-CC0.md)
+The contents of the [`lang/`](src/main/resources/assets/molassesenhancements/lang) 
+directory (despite being in the [`src/main/resources`](src/main/resources) directory) 
+are licensed under  the [Creative Commons Zero](LICENSE-CC0.md) license.
 
 ## Preview
 
