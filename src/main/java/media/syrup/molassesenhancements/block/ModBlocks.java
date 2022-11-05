@@ -124,6 +124,24 @@ public class ModBlocks {
     public static final Block OBSIDIAN_BRICK_WALL = registerBlock("obsidian_brick_wall",
         new ModWallBlock(FabricBlockSettings.copy(OBSIDIAN_BRICKS)), ItemGroup.DECORATIONS);
 
+    public static final Block RIVER_STONES = registerBlock("river_stones", 
+        new Block(FabricBlockSettings.of(Material.STONE).hardness(0.15f).resistance(0.6f)), ItemGroup.BUILDING_BLOCKS);
+
+    public static final Block MOSSY_RIVER_STONES = registerBlock("mossy_river_stones", 
+        new Block(FabricBlockSettings.of(Material.STONE).hardness(0.15f).resistance(0.6f)), ItemGroup.BUILDING_BLOCKS);
+
+    public static final Block ROSE_QUARTZ= registerBlock("rose_quartz",
+        new Block(FabricBlockSettings.of(Material.STONE).hardness(0.20f).resistance(0.6f)), ItemGroup.BUILDING_BLOCKS);
+
+    public static final Block ROSE_QUARTZ_PILLAR= registerBlock("rose_quartz_pillar",
+        new ModPillarBlock(FabricBlockSettings.of(Material.STONE).hardness(0.15f).resistance(0.6f)), ItemGroup.BUILDING_BLOCKS);
+    
+    public static final Block ROSE_QUARTZ_PILLAR_VINES= registerBlock("rose_quartz_pillar_vines",
+        new ModPillarBlock(FabricBlockSettings.of(Material.STONE).hardness(0.15f).resistance(0.6f)), ItemGroup.BUILDING_BLOCKS);
+
+    public static final Block ROSE_QUARTZ_PILLAR_FLOWERS= registerBlock("rose_quartz_pillar_flowers",
+        new ModPillarBlock(FabricBlockSettings.of(Material.STONE).hardness(0.15f).resistance(0.6f)), ItemGroup.BUILDING_BLOCKS);
+
     private static Block registerBlock(String name, Block block, ItemGroup tab) {
         registerBlockItem(name, block, tab);
         return Registry.register(Registry.BLOCK, new Identifier(MolassesEnhancements.MOD_ID, name), block);
@@ -137,9 +155,4 @@ public class ModBlocks {
     public static void registerModBlocks() {
         MolassesEnhancements.LOGGER.debug("Registering mod blocks for " + MolassesEnhancements.MOD_ID);
     }
-    public static final Block RIVER_STONES = registerBlock("river_stones", 
-        new Block(FabricBlockSettings.of(Material.STONE).hardness(0.15f).resistance(0.6f)), ItemGroup.DECORATIONS);
-
-    public static final Block MOSSY_RIVER_STONES = registerBlock("mossy_river_stones", 
-        new Block(FabricBlockSettings.of(Material.STONE).hardness(0.15f).resistance(0.6f)), ItemGroup.DECORATIONS);
 }

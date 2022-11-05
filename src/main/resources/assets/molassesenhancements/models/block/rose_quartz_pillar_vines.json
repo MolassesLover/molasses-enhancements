@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "molassesenhancements:block/rose_quarts_pillar_top",
+    "side": "molassesenhancements:block/rose_quarts_pillar_vines"
+  }
+}
