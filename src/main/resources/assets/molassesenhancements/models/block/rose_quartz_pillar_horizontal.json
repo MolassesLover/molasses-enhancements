@@ -2,6 +2,6 @@
   "parent": "minecraft:block/cube_column",
   "textures": {
     "end": "molassesenhancements:block/rose_quartz_pillar_top",
-    "side": "molassesenhancements:block/rose_quarts_pillar"
+    "side": "molassesenhancements:block/rose_quartz_pillar"
   }
 }
