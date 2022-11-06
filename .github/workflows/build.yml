@@ -5,14 +5,12 @@
 
 name: build
 on: [pull_request, push]
-
 jobs:
   build:
     strategy:
       matrix:
         # Use these Java versions
-        java: [
-          17,    # Current Java LTS & minimum supported by Minecraft
+        java: [17, # Current Java LTS & minimum supported by Minecraft
         ]
         os: [ubuntu-20.04]
     runs-on: ${{ matrix.os }}
@@ -29,10 +27,11 @@ jobs:
         if: ${{ runner.os != 'Windows' }}
         run: chmod +x ./gradlew
       - name: format
-        run: | 
-          sudo apt-get install uncrustify python3-pip
+        run: |
+          sudo apt-get install uncrustify python3-pip go
           pip install black
           npm install -g prettier
+          go install github.com/google/yamlfmt/cmd/yamlfmt@latest
           cd dev/format/
           python3 format.py
       - name: build
@@ -52,6 +51,6 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           files: |
-            ${{ steps.optimized-files.outputs.all_modified_files }}
-          commit-message: 'Automated changed!'
+            ${{ steps.modified-files.outputs.all_modified_files }}
+          commit-message: 'Automated changes!'
           ref: ${{ github.ref }}

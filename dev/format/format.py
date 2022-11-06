@@ -53,6 +53,19 @@ def main():
                         )
                     except subprocess.CalledProcessError as error:
                         print(f":: {Fore.RED}Error{Fore.RESET}:\n{error}")
+                elif file.lower().endswith("yml".lower()):
+                    print(
+                        f":: {Fore.BLUE}Formatting{Fore.RESET} {Fore.YELLOW}{file}{Fore.RESET} as {Fore.GREEN}YAML{Fore.RESET}"
+                    )
+                    try:
+                        subprocess.check_output(
+                            f"yamlfmt {os.path.join(root, file)}",
+                            shell=True,
+                            stderr=subprocess.PIPE,
+                        )
+                    except subprocess.CalledProcessError as error:
+                        print(f":: {Fore.RED}Error{Fore.RESET}:\n{error}")
+
 
     # Ignore keyboard interruption
     except KeyboardInterrupt:
