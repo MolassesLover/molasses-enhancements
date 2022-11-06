@@ -1,0 +1,13 @@
+{
+
+    "parent": "minecraft:block/template_glass_pane_side_alt",
+    
+    "textures": {
+    
+    "edge": "molassesenhancements:block/oriental_window_panel_top",
+    
+    "pane": "molassesenhancements:block/oriental_window_panel"
+    
+    }
+    
+}
