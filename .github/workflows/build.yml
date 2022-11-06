@@ -28,6 +28,13 @@ jobs:
       - name: make gradle wrapper executable
         if: ${{ runner.os != 'Windows' }}
         run: chmod +x ./gradlew
+      - name: format
+        run: | 
+          sudo apt-get install uncrustify python3-pip
+          pip install black
+          npm install -g prettier
+          cd dev/format/
+          python3 format.py
       - name: build
         run: ./gradlew build
       - name: capture build artifacts
@@ -36,19 +43,15 @@ jobs:
         with:
           name: Artifacts
           path: build/libs/
-      - name: format
-        run: | 
-          sudo apt-get install uncrustify python3-pip
-          pip install black
-          npm install -g prettier
-          cd dev/format/
-          python3 format.py
+      - name: Get modified files
+        id: modified-files
+        run: echo "::set-output name=all_modified_files::$(git status --porcelain | sed s/^...// | sed -z 's/\n/%0A/g;s/%0A$/\n/')"
       - name: Commit and push changes
         uses: swinton/commit@v2.x
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           files: |
-            **/**
-          commit-message: ':zap: Optimize PNG files'
+            ${{ steps.optimized-files.outputs.all_modified_files }}
+          commit-message: 'Automated changed!'
           ref: ${{ github.ref }}
