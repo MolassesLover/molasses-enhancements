@@ -142,6 +142,9 @@ public class ModBlocks {
     public static final Block ROSE_QUARTZ_PILLAR_FLOWERS= registerBlock("rose_quartz_pillar_flowers",
         new ModPillarBlock(FabricBlockSettings.of(Material.STONE).hardness(0.15f).resistance(0.6f)), ItemGroup.BUILDING_BLOCKS);
 
+    public static final Block CHINESE_WINDOW_PANEL= registerBlock("chinese_window_panel",
+        new Block(FabricBlockSettings.of(Material.GLASS).hardness(0.3f).resistance(0.3f)), ItemGroup.BUILDING_BLOCKS);
+
     private static Block registerBlock(String name, Block block, ItemGroup tab) {
         registerBlockItem(name, block, tab);
         return Registry.register(Registry.BLOCK, new Identifier(MolassesEnhancements.MOD_ID, name), block);

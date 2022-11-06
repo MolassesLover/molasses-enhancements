@@ -1,0 +1,13 @@
+{
+
+    "parent": "minecraft:block/template_glass_pane_side",
+    
+    "textures": {
+    
+    "edge": "minecraft:block/chinese_window_panel_top",
+    
+    "pane": "minecraft:block/chinese_window_panel"
+    
+    }
+    
+}
