@@ -4,7 +4,7 @@
     
     "textures": {
     
-    "all": "minecraft:block/chinese_window_panel"
+    "all": "molassesenhancements:block/chinese_window_panel"
     
     }
 }
