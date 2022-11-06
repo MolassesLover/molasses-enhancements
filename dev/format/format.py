@@ -66,7 +66,6 @@ def main():
                     except subprocess.CalledProcessError as error:
                         print(f":: {Fore.RED}Error{Fore.RESET}:\n{error}")
 
-
     # Ignore keyboard interruption
     except KeyboardInterrupt:
         sys.exit()
