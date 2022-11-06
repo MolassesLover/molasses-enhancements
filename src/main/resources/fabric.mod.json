@@ -5,9 +5,7 @@
 
   "name": "Molasses' Enhancements",
   "description": "Various gameplay changes by MolassesLover!",
-  "authors": [
-    "MolassesLover"
-  ],
+  "authors": ["MolassesLover"],
   "contact": {
     "homepage": "https://molasseslover.github.io/",
     "sources": "https://github.com/MolassesLover/MolassesEnhancements"
@@ -18,13 +16,9 @@
 
   "environment": "*",
   "entrypoints": {
-    "main": [
-      "media.syrup.molassesenhancements.MolassesEnhancements"
-    ]
+    "main": ["media.syrup.molassesenhancements.MolassesEnhancements"]
   },
-  "mixins": [
-    "molassesenhancements.mixins.json"
-  ],
+  "mixins": ["molassesenhancements.mixins.json"],
 
   "depends": {
     "fabricloader": ">=0.14.9",

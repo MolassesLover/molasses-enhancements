@@ -5,10 +5,7 @@
       "item": "molassesenhancements:dacite"
     }
   },
-  "pattern": [
-    "XX",
-    "XX"
-  ],
+  "pattern": ["XX", "XX"],
   "result": {
     "item": "molassesenhancements:polished_dacite",
     "count": 4

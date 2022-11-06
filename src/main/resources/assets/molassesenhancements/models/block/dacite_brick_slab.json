@@ -1,8 +1,8 @@
 {
-    "parent": "minecraft:block/slab",
-    "textures": {
-        "bottom": "molassesenhancements:block/dacite_bricks",
-        "side": "molassesenhancements:block/dacite_bricks",
-        "top": "molassesenhancements:block/dacite_bricks"
-    }
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "molassesenhancements:block/dacite_bricks",
+    "side": "molassesenhancements:block/dacite_bricks",
+    "top": "molassesenhancements:block/dacite_bricks"
+  }
 }

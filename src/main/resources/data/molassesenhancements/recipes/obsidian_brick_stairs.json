@@ -1,17 +1,13 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "key": {
-        "X": {
-            "item": "molassesenhancements:obsidian_bricks"
-        }
-    },
-    "pattern": [
-        "X  ",
-        "XX ",
-        "XXX"
-    ],
-    "result": {
-        "item": "molassesenhancements:obsidian_brick_stairs",
-        "count": 4
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": {
+      "item": "molassesenhancements:obsidian_bricks"
     }
+  },
+  "pattern": ["X  ", "XX ", "XXX"],
+  "result": {
+    "item": "molassesenhancements:obsidian_brick_stairs",
+    "count": 4
+  }
 }

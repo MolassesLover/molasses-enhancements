@@ -1,8 +1,8 @@
 {
-    "parent": "minecraft:block/outer_stairs",
-    "textures": {
-        "bottom": "molassesenhancements:block/obsidian_bricks",
-        "side": "molassesenhancements:block/obsidian_bricks",
-        "top": "molassesenhancements:block/obsidian_bricks"
-    }
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "molassesenhancements:block/obsidian_bricks",
+    "side": "molassesenhancements:block/obsidian_bricks",
+    "top": "molassesenhancements:block/obsidian_bricks"
+  }
 }

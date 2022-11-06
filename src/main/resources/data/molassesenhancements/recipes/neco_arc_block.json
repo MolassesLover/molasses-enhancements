@@ -1,16 +1,13 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "key": {
-        "N": {
-            "item": "molassesenhancements:neco_arc"
-        }
-    },
-    "pattern": [
-        "NN",
-        "NN"
-    ],
-    "result": {
-        "item": "molassesenhancements:neco_arc_block",
-        "count": 1
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "N": {
+      "item": "molassesenhancements:neco_arc"
     }
+  },
+  "pattern": ["NN", "NN"],
+  "result": {
+    "item": "molassesenhancements:neco_arc_block",
+    "count": 1
+  }
 }

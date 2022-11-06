@@ -1,10 +1,7 @@
 {
+  "parent": "minecraft:block/cube_all",
 
-    "parent": "minecraft:block/cube_all",
-    
-    "textures": {
-    
+  "textures": {
     "all": "molassesenhancements:block/oriental_window_panel"
-    
-    }
+  }
 }

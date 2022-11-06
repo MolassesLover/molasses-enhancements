@@ -1,8 +1,8 @@
 {
-    "parent": "minecraft:block/inner_stairs",
-    "textures": {
-        "bottom": "molassesenhancements:block/andesite_bricks",
-        "side": "molassesenhancements:block/andesite_bricks",
-        "top": "molassesenhancements:block/andesite_bricks"
-    }
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "molassesenhancements:block/andesite_bricks",
+    "side": "molassesenhancements:block/andesite_bricks",
+    "top": "molassesenhancements:block/andesite_bricks"
+  }
 }

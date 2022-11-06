@@ -5,10 +5,7 @@
       "item": "molassesenhancements:polished_dacite"
     }
   },
-  "pattern": [
-    "XX",
-    "XX"
-  ],
+  "pattern": ["XX", "XX"],
   "result": {
     "item": "molassesenhancements:dacite_bricks",
     "count": 4

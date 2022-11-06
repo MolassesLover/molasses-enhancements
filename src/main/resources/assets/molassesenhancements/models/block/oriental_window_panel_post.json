@@ -1,12 +1,9 @@
 {
+  "parent": "minecraft:block/template_glass_pane_post",
 
-    "parent": "minecraft:block/template_glass_pane_post",
-    
-    "textures": {
-    
+  "textures": {
     "edge": "molassesenhancements:block/oriental_window_panel_top",
-    
+
     "pane": "molassesenhancements:block/oriental_window_panel"
-    
-    }
+  }
 }

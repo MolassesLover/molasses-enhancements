@@ -3,11 +3,8 @@
   "minVersion": "0.8",
   "package": "media.syrup.molassesenhancements.mixin",
   "compatibilityLevel": "JAVA_17",
-  "mixins": [
-  ],
-  "client": [
-    "GenericMixin"
-  ],
+  "mixins": [],
+  "client": ["GenericMixin"],
   "injectors": {
     "defaultRequire": 1
   }

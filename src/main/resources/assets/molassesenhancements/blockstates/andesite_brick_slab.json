@@ -1,13 +1,13 @@
 {
-    "variants": {
-        "type=bottom": {
-            "model": "molassesenhancements:block/andesite_brick_slab"
-        },
-        "type=double": {
-            "model": "molassesenhancements:block/andesite_bricks"
-        },
-        "type=top": {
-            "model": "molassesenhancements:block/andesite_brick_slab_top"
-        }
+  "variants": {
+    "type=bottom": {
+      "model": "molassesenhancements:block/andesite_brick_slab"
+    },
+    "type=double": {
+      "model": "molassesenhancements:block/andesite_bricks"
+    },
+    "type=top": {
+      "model": "molassesenhancements:block/andesite_brick_slab_top"
     }
+  }
 }

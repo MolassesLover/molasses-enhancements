@@ -1,16 +1,13 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "key": {
-        "X": {
-            "item": "molassesenhancements:polished_dacite"
-        }
-    },
-    "pattern": [
-        "X",
-        "X"
-    ],
-    "result": {
-        "item": "molassesenhancements:dacite_pillar",
-        "count": 6
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": {
+      "item": "molassesenhancements:polished_dacite"
     }
+  },
+  "pattern": ["X", "X"],
+  "result": {
+    "item": "molassesenhancements:dacite_pillar",
+    "count": 6
+  }
 }

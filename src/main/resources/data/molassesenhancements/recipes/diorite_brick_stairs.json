@@ -1,17 +1,13 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "key": {
-        "X": {
-            "item": "molassesenhancements:diorite_bricks"
-        }
-    },
-    "pattern": [
-        "X  ",
-        "XX ",
-        "XXX"
-    ],
-    "result": {
-        "item": "molassesenhancements:diorite_brick_stairs",
-        "count": 4
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": {
+      "item": "molassesenhancements:diorite_bricks"
     }
+  },
+  "pattern": ["X  ", "XX ", "XXX"],
+  "result": {
+    "item": "molassesenhancements:diorite_brick_stairs",
+    "count": 4
+  }
 }

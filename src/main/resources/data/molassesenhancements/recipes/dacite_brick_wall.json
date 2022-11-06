@@ -1,16 +1,13 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "key": {
-        "X": {
-            "item": "molassesenhancements:dacite_bricks"
-        }
-    },
-    "pattern": [
-        "XXX",
-        "XXX"
-    ],
-    "result": {
-        "item": "molassesenhancements:dacite_brick_wall",
-        "count": 6
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": {
+      "item": "molassesenhancements:dacite_bricks"
     }
+  },
+  "pattern": ["XXX", "XXX"],
+  "result": {
+    "item": "molassesenhancements:dacite_brick_wall",
+    "count": 6
+  }
 }

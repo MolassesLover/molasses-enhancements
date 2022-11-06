@@ -1,10 +1,7 @@
 {
+  "parent": "minecraft:block/template_glass_pane_noside",
 
-    "parent": "minecraft:block/template_glass_pane_noside",
-    
-    "textures": {
-    
+  "textures": {
     "pane": "molassesenhancements:block/oriental_window_panel"
-    
-    }
+  }
 }

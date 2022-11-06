@@ -9,8 +9,8 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Mixin(TitleScreen.class)
 public class GenericMixin {
-	@Inject(at = @At("HEAD"), method = "init()V")
-	private void init(CallbackInfo info) {
-		MolassesEnhancements.LOGGER.info("Initializing Molasses' Enhancements...");
-	}
+@Inject(at = @At("HEAD"), method = "init()V")
+private void init(CallbackInfo info) {
+    MolassesEnhancements.LOGGER.info("Initializing Molasses' Enhancements...");
+}
 }

@@ -1,11 +1,11 @@
 {
-    "values": [
-        "molassesenhancements:andesite_brick_stairs",
-        "molassesenhancements:cobbled_dacite_stairs",
-        "molassesenhancements:dacite_stairs",
-        "molassesenhancements:dacite_brick_stairs",
-        "molassesenhancements:diorite_brick_stairs",
-        "molassesenhancements:granite_brick_stairs",
-        "molassesenhancements:obsidian_brick_stairs"
-    ]
+  "values": [
+    "molassesenhancements:andesite_brick_stairs",
+    "molassesenhancements:cobbled_dacite_stairs",
+    "molassesenhancements:dacite_stairs",
+    "molassesenhancements:dacite_brick_stairs",
+    "molassesenhancements:diorite_brick_stairs",
+    "molassesenhancements:granite_brick_stairs",
+    "molassesenhancements:obsidian_brick_stairs"
+  ]
 }
