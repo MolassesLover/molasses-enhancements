@@ -38,9 +38,6 @@ jobs:
           name: Artifacts
           path: build/libs/
       - name: format
-        uses: actions/checkout@v2
-        with:
-          ref: ${{ github.head_ref }}
         run: | 
           sudo apt-get install prettier uncrustify python-black
           cd dev/format/
