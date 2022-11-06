@@ -145,6 +145,9 @@ public class ModBlocks {
     public static final Block CHINESE_WINDOW_PANEL= registerBlock("chinese_window_panel",
         new Block(FabricBlockSettings.of(Material.GLASS).hardness(0.3f).resistance(0.3f)), ItemGroup.BUILDING_BLOCKS);
 
+    public static final Block DARK_OAK_WIDE_PLANKS= registerBlock("dark_oak_wide_planks", 
+        new Block(FabricBlockSettings.of(Material.WOOD).hardness(2.0f).resistance(3.0f)), ItemGroup.BUILDING_BLOCKS);
+
     private static Block registerBlock(String name, Block block, ItemGroup tab) {
         registerBlockItem(name, block, tab);
         return Registry.register(Registry.BLOCK, new Identifier(MolassesEnhancements.MOD_ID, name), block);

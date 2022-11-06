@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "molassesenhancements:block/dark_oak_wide_planks"
+  }
+}
