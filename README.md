@@ -37,7 +37,7 @@ under [Creative Commons Attribution-ShareAlike v4.0](LICENSE-CC-BY-SA.md).
 ### Translations
 The contents of the [`lang/`](src/main/resources/assets/molassesenhancements/lang) 
 directory (despite being in the [`src/main/resources/`](src/main/resources) directory) 
-are licensed under  the [Creative Commons Zero](LICENSE-CC0.md) license.
+are licensed under [Creative Commons Zero](LICENSE-CC0.md).
 
 ## Preview
 
