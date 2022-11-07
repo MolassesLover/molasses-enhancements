@@ -11,6 +11,7 @@ import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
+import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.block.Block;
 import net.minecraft.block.Material;
 import net.minecraft.util.Identifier;
@@ -18,7 +19,7 @@ import net.minecraft.util.registry.Registry;
 
 public class ModBlocks {
 public static final Block NECO_ARC_BLOCK = registerBlock("neco_arc_block",
-                                                         new Block(FabricBlockSettings.of(Material.WOOL).breakInstantly()), ItemGroup.DECORATIONS);
+                                                         new Block(FabricBlockSettings.of(Material.WOOL).breakInstantly().sounds(BlockSoundGroup.WOOL)), ItemGroup.DECORATIONS);
 
 public static final Block ANDESITE_BRICKS = registerBlock("andesite_bricks",
                                                           new Block(FabricBlockSettings.of(Material.STONE).hardness(0.15f).resistance(0.6f)), ItemGroup.BUILDING_BLOCKS);
@@ -144,10 +145,10 @@ public static final Block ROSE_QUARTZ_PILLAR_FLOWERS = registerBlock("rose_quart
                                                                      new ModPillarBlock(FabricBlockSettings.of(Material.STONE).hardness(0.15f).resistance(0.6f)), ItemGroup.BUILDING_BLOCKS);
 
 public static final Block ORIENTAL_WINDOW_PANEL = registerBlock("oriental_window_panel",
-                                                                new ModPaneBlock(FabricBlockSettings.of(Material.GLASS).hardness(0.3f).resistance(0.3f).nonOpaque()), ItemGroup.BUILDING_BLOCKS);
+                                                                new ModPaneBlock(FabricBlockSettings.of(Material.GLASS).hardness(0.3f).resistance(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)), ItemGroup.BUILDING_BLOCKS);
 
 public static final Block DARK_OAK_WIDE_PLANKS = registerBlock("dark_oak_wide_planks",
-                                                               new Block(FabricBlockSettings.of(Material.WOOD).hardness(2.0f).resistance(2.0f)), ItemGroup.BUILDING_BLOCKS);
+                                                               new Block(FabricBlockSettings.of(Material.WOOD).hardness(2.0f).resistance(2.0f).sounds(BlockSoundGroup.WOOD)), ItemGroup.BUILDING_BLOCKS);
 
 private static Block registerBlock(String name, Block block, ItemGroup tab) {
     registerBlockItem(name, block, tab);
