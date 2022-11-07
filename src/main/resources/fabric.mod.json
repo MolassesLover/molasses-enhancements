@@ -16,7 +16,8 @@
 
   "environment": "*",
   "entrypoints": {
-    "main": ["media.syrup.molassesenhancements.MolassesEnhancements"]
+    "main": ["media.syrup.molassesenhancements.MolassesEnhancements"],
+    "client": ["media.syrup.molassesenhancements.MolassesEnhancementsClient"]
   },
   "mixins": ["molassesenhancements.mixins.json"],
 
