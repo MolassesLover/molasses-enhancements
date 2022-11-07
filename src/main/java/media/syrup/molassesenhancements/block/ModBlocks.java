@@ -151,28 +151,28 @@ public static final Block ORIENTAL_WINDOW_PANEL = registerBlock("oriental_window
                                                                 new ModPaneBlock(FabricBlockSettings.of(Material.GLASS).hardness(0.3f).resistance(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)), ItemGroup.BUILDING_BLOCKS);
 
 public static final Block ACACIA_WIDE_PLANKS = registerBlock("acacia_wide_planks",
-                                                               new Block(FabricBlockSettings.of(Material.WOOD).hardness(2.0f).resistance(2.0f).sounds(BlockSoundGroup.WOOD)), ItemGroup.BUILDING_BLOCKS);
+                                                             new Block(FabricBlockSettings.of(Material.WOOD).hardness(2.0f).resistance(2.0f).sounds(BlockSoundGroup.WOOD)), ItemGroup.BUILDING_BLOCKS);
 
 public static final Block BIRCH_WIDE_PLANKS = registerBlock("birch_wide_planks",
-                                                               new Block(FabricBlockSettings.of(Material.WOOD).hardness(2.0f).resistance(2.0f).sounds(BlockSoundGroup.WOOD)), ItemGroup.BUILDING_BLOCKS);
+                                                            new Block(FabricBlockSettings.of(Material.WOOD).hardness(2.0f).resistance(2.0f).sounds(BlockSoundGroup.WOOD)), ItemGroup.BUILDING_BLOCKS);
 
 public static final Block CRIMSON_OAK_WIDE_PLANKS = registerBlock("crimson_wide_planks",
-                                                               new Block(FabricBlockSettings.of(Material.WOOD).hardness(2.0f).resistance(2.0f).sounds(BlockSoundGroup.WOOD)), ItemGroup.BUILDING_BLOCKS);
+                                                                  new Block(FabricBlockSettings.of(Material.WOOD).hardness(2.0f).resistance(2.0f).sounds(BlockSoundGroup.WOOD)), ItemGroup.BUILDING_BLOCKS);
 
 public static final Block DARK_OAK_WIDE_PLANKS = registerBlock("dark_oak_wide_planks",
                                                                new Block(FabricBlockSettings.of(Material.WOOD).hardness(2.0f).resistance(2.0f).sounds(BlockSoundGroup.WOOD)), ItemGroup.BUILDING_BLOCKS);
 
 public static final Block JUNGLE_WIDE_PLANKS = registerBlock("jungle_wide_planks",
-                                                               new Block(FabricBlockSettings.of(Material.WOOD).hardness(2.0f).resistance(2.0f).sounds(BlockSoundGroup.WOOD)), ItemGroup.BUILDING_BLOCKS);
+                                                             new Block(FabricBlockSettings.of(Material.WOOD).hardness(2.0f).resistance(2.0f).sounds(BlockSoundGroup.WOOD)), ItemGroup.BUILDING_BLOCKS);
 
 public static final Block MANGROVE_WIDE_PLANKS = registerBlock("mangrove_wide_planks",
                                                                new Block(FabricBlockSettings.of(Material.WOOD).hardness(2.0f).resistance(2.0f).sounds(BlockSoundGroup.WOOD)), ItemGroup.BUILDING_BLOCKS);
-                                                               
+
 public static final Block SPRUCE_WIDE_PLANKS = registerBlock("spruce_wide_planks",
-                                                               new Block(FabricBlockSettings.of(Material.WOOD).hardness(2.0f).resistance(2.0f).sounds(BlockSoundGroup.WOOD)), ItemGroup.BUILDING_BLOCKS);
+                                                             new Block(FabricBlockSettings.of(Material.WOOD).hardness(2.0f).resistance(2.0f).sounds(BlockSoundGroup.WOOD)), ItemGroup.BUILDING_BLOCKS);
 
 public static final Block WARPED_WIDE_PLANKS = registerBlock("warped_wide_planks",
-                                                               new Block(FabricBlockSettings.of(Material.WOOD).hardness(2.0f).resistance(2.0f).sounds(BlockSoundGroup.WOOD)), ItemGroup.BUILDING_BLOCKS);
+                                                             new Block(FabricBlockSettings.of(Material.WOOD).hardness(2.0f).resistance(2.0f).sounds(BlockSoundGroup.WOOD)), ItemGroup.BUILDING_BLOCKS);
 
 private static Block registerBlock(String name, Block block, ItemGroup tab) {
     registerBlockItem(name, block, tab);
