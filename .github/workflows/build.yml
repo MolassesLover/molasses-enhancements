@@ -28,8 +28,8 @@ jobs:
         run: chmod +x ./gradlew
       - name: format
         run: |
-          sudo apt-get install uncrustify python3-pip shfmt
-          sudo snap install go --classic
+          sudo apt-get install uncrustify python3-pip
+          sudo snap install go shfmt --classic
           pip install black
           npm install -g prettier
           go install github.com/google/yamlfmt/cmd/yamlfmt@latest
