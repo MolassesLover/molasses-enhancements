@@ -27,7 +27,14 @@ jobs:
         if: ${{ runner.os != 'Windows' }}
         run: chmod +x ./gradlew
       - name: format
-        run: "sudo apt-get install uncrustify python3-pip \nsudo snap install go --classic\npip install black\nnpm install -g prettier\ngo install github.com/google/yamlfmt/cmd/yamlfmt@latest\ncd dev/format/\npython3 format.py --output\n"
+        run: |
+          sudo apt-get install uncrustify python3-pip 
+          sudo snap install go --classic
+          pip install black
+          npm install -g prettier
+          go install github.com/google/yamlfmt/cmd/yamlfmt@latest
+          cd dev/format/
+          python3 format.py
       - name: build
         run: ./gradlew build
       - name: capture build artifacts
