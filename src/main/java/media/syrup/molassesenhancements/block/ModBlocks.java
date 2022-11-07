@@ -1,6 +1,7 @@
 package media.syrup.molassesenhancements.block;
 
 import media.syrup.molassesenhancements.MolassesEnhancements;
+import media.syrup.molassesenhancements.block.custom.ModPaneBlock;
 import media.syrup.molassesenhancements.block.custom.ModPillarBlock;
 import media.syrup.molassesenhancements.block.custom.ModSlabBlock;
 import media.syrup.molassesenhancements.block.custom.ModStairsBlock;
@@ -143,10 +144,10 @@ public static final Block ROSE_QUARTZ_PILLAR_FLOWERS = registerBlock("rose_quart
                                                                      new ModPillarBlock(FabricBlockSettings.of(Material.STONE).hardness(0.15f).resistance(0.6f)), ItemGroup.BUILDING_BLOCKS);
 
 public static final Block ORIENTAL_WINDOW_PANEL = registerBlock("oriental_window_panel",
-                                                                new Block(FabricBlockSettings.of(Material.GLASS).hardness(0.3f).resistance(0.3f).nonOpaque()), ItemGroup.BUILDING_BLOCKS);
+                                                                new ModPaneBlock(FabricBlockSettings.of(Material.GLASS).hardness(0.3f).resistance(0.3f).nonOpaque()), ItemGroup.BUILDING_BLOCKS);
 
 public static final Block DARK_OAK_WIDE_PLANKS = registerBlock("dark_oak_wide_planks",
-                                                               new Block(FabricBlockSettings.of(Material.WOOD).hardness(2.0f).resistance(3.0f)), ItemGroup.BUILDING_BLOCKS);
+                                                               new Block(FabricBlockSettings.of(Material.WOOD).hardness(2.0f).resistance(2.0f)), ItemGroup.BUILDING_BLOCKS);
 
 private static Block registerBlock(String name, Block block, ItemGroup tab) {
     registerBlockItem(name, block, tab);
