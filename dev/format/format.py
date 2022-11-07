@@ -93,6 +93,14 @@ def main():
             output=useOutput,
             fileAmount=allFiles,
         )
+        format(
+            command=f"shfmt --write",
+            extension="sh",
+            language="Shell",
+            sourcePath="../../",
+            output=useOutput,
+            fileAmount=allFiles,
+        )
     except KeyboardInterrupt:  # Ignore keyboard interruption
         sys.exit()
 

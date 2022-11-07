@@ -28,7 +28,7 @@ jobs:
         run: chmod +x ./gradlew
       - name: format
         run: |
-          sudo apt-get install uncrustify python3-pip 
+          sudo apt-get install uncrustify python3-pip shfmt
           sudo snap install go --classic
           pip install black
           npm install -g prettier
