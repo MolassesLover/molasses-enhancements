@@ -41,7 +41,6 @@ def format(
 
                 except subprocess.CalledProcessError as error:
                     print(f":: {Fore.RED}Error{Fore.RESET}:\n{error}")
-                    sys.exit(1)
 
 
 def main():
