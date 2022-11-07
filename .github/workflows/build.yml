@@ -29,7 +29,8 @@ jobs:
       - name: format
         run: |
           sudo apt-get install uncrustify python3-pip
-          sudo snap install go shfmt --classic
+          sudo snap install go --classic
+          sudo snap install shfmt
           pip install black
           npm install -g prettier
           go install github.com/google/yamlfmt/cmd/yamlfmt@latest
