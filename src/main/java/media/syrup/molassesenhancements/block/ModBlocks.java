@@ -144,7 +144,7 @@ public static final Block ROSE_QUARTZ_PILLAR_VINES = registerBlock("rose_quartz_
 public static final Block ROSE_QUARTZ_PILLAR_FLOWERS = registerBlock("rose_quartz_pillar_flowers",
                                                                      new ModPillarBlock(FabricBlockSettings.of(Material.STONE).hardness(0.15f).resistance(0.6f)), ItemGroup.BUILDING_BLOCKS);
 
-public static final Block ICE_BLOCKS = registerBlock("ice_blocks",
+public static final Block ICE_BRICKS = registerBlock("ice_bricks",
                                                                      new Block(FabricBlockSettings.of(Material.ICE).hardness(0.15f).resistance(0.6f)), ItemGroup.BUILDING_BLOCKS);
 
 public static final Block ORIENTAL_WINDOW_PANEL = registerBlock("oriental_window_panel",

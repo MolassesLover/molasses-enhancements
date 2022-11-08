@@ -9,5 +9,6 @@ public class MolassesEnhancementsClient implements ClientModInitializer {
 @Override
 public void onInitializeClient() {
     BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ORIENTAL_WINDOW_PANEL, RenderLayer.getTranslucent());
+    BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ICE_BRICKS, RenderLayer.getTranslucent());
 }
 }
