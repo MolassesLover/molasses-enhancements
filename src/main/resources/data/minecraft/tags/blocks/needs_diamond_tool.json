@@ -1,10 +1,9 @@
 {
-    "values": [
-        "molassesenhancements:obsidian_bricks",
-        "molassesenhancements:cracked_obsidian_bricks",
-        "molassesenhancements:obsidian_brick_stairs",
-        "molassesenhancements:obsidian_brick_slab",
-        "molassesenhancements:obsidian_brick_wall"
-    ]
+  "values": [
+    "molassesenhancements:obsidian_bricks",
+    "molassesenhancements:cracked_obsidian_bricks",
+    "molassesenhancements:obsidian_brick_stairs",
+    "molassesenhancements:obsidian_brick_slab",
+    "molassesenhancements:obsidian_brick_wall"
+  ]
 }
-
