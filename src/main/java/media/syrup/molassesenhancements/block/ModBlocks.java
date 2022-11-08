@@ -163,7 +163,7 @@ public static final Block WIDE_DARK_OAK_PLANKS = registerBlock("wide_dark_oak_pl
                                                                new Block(FabricBlockSettings.of(Material.WOOD).hardness(2.0f).resistance(2.0f).sounds(BlockSoundGroup.WOOD)), ItemGroup.BUILDING_BLOCKS);
 
 public static final Block WIDE_OAK_PLANKS = registerBlock("wide_oak_planks",
-                                                             new Block(FabricBlockSettings.of(Material.WOOD).hardness(2.0f).resistance(2.0f).sounds(BlockSoundGroup.WOOD)), ItemGroup.BUILDING_BLOCKS);
+                                                          new Block(FabricBlockSettings.of(Material.WOOD).hardness(2.0f).resistance(2.0f).sounds(BlockSoundGroup.WOOD)), ItemGroup.BUILDING_BLOCKS);
 
 public static final Block WIDE_JUNGLE_PLANKS = registerBlock("wide_jungle_planks",
                                                              new Block(FabricBlockSettings.of(Material.WOOD).hardness(2.0f).resistance(2.0f).sounds(BlockSoundGroup.WOOD)), ItemGroup.BUILDING_BLOCKS);
