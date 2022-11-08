@@ -169,7 +169,7 @@ public static final Block WIDE_MANGROVE_PLANKS = registerBlock("wide_mangrove_pl
                                                                new Block(FabricBlockSettings.of(Material.WOOD).hardness(2.0f).resistance(2.0f).sounds(BlockSoundGroup.WOOD)), ItemGroup.BUILDING_BLOCKS);
 
 public static final Block WIDE_SPRUCE_WIDE_PLANKS = registerBlock("wide_spruce_planks",
-                                                             new Block(FabricBlockSettings.of(Material.WOOD).hardness(2.0f).resistance(2.0f).sounds(BlockSoundGroup.WOOD)), ItemGroup.BUILDING_BLOCKS);
+                                                                  new Block(FabricBlockSettings.of(Material.WOOD).hardness(2.0f).resistance(2.0f).sounds(BlockSoundGroup.WOOD)), ItemGroup.BUILDING_BLOCKS);
 
 public static final Block WIDE_WARPED_PLANKS = registerBlock("wide_warped_planks",
                                                              new Block(FabricBlockSettings.of(Material.WOOD).hardness(2.0f).resistance(2.0f).sounds(BlockSoundGroup.WOOD)), ItemGroup.BUILDING_BLOCKS);
