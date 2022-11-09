@@ -12,7 +12,7 @@
       "model": "molassesenhancements:block/fan_rose_quartz_bricks"
     },
     "facing=west": {
-      "model": "molassesenhancements:fan_rose_quartz_bricks_west"
+      "model": "molassesenhancements:block/fan_rose_quartz_bricks_west"
     }
   }
 }
