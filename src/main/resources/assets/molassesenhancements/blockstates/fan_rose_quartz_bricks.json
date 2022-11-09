@@ -1,7 +1,8 @@
 {
   "variants": {
     "facing=east": {
-      "model": "molassesenhancements:block/fan_rose_quartz_bricks_eat"
+      "model": "molassesenhancements:block/fan_rose_quartz_bricks",
+      "y": 270
     },
     "facing=north": {
       "model": "molassesenhancements:block/fan_rose_quartz_bricks",
@@ -11,7 +12,7 @@
       "model": "molassesenhancements:block/fan_rose_quartz_bricks"
     },
     "facing=west": {
-      "model": "molassesenhancements:block/fan_rose_quartz_bricks",
+      "model": "molassesenhancements:block/fan_rose_quartz_bricks_west",
       "y": 90
     }
   }
