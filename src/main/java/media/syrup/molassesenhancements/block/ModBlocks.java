@@ -148,6 +148,10 @@ public static final Block ROSE_QUARTZ_PILLAR_FLOWERS = registerBlock("rose_quart
 public static final Block FAN_ROSE_QUARTZ_BRICKS = registerBlock("fan_rose_quartz_bricks",
                                                                  new ModGlazedTerracottaBlock(FabricBlockSettings.of(Material.STONE).hardness(0.15f).resistance(0.6f)), ItemGroup.BUILDING_BLOCKS);
 
+public static final Block ROSE_QUARTZ_TILE = registerBlock("rose_quartz_tile",
+                                                                 new Block(FabricBlockSettings.of(Material.STONE).hardness(0.15f).resistance(0.6f)), ItemGroup.BUILDING_BLOCKS);
+
+
 public static final Block ICE_BRICKS = registerBlock("ice_bricks",
                                                      new Block(FabricBlockSettings.of(Material.ICE).hardness(0.15f).resistance(0.6f).nonOpaque().sounds(BlockSoundGroup.GLASS)), ItemGroup.BUILDING_BLOCKS);
 
