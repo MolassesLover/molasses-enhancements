@@ -134,7 +134,7 @@ public static final Block MOSSY_RIVER_STONES = registerBlock("mossy_river_stones
                                                              new Block(FabricBlockSettings.of(Material.STONE).hardness(0.15f).resistance(0.6f)), ItemGroup.BUILDING_BLOCKS);
 
 public static final Block ROSE_QUARTZ_BLOCK = registerBlock("rose_quartz_block",
-                                                      new Block(FabricBlockSettings.of(Material.STONE).hardness(0.20f).resistance(0.6f)), ItemGroup.BUILDING_BLOCKS);
+                                                            new Block(FabricBlockSettings.of(Material.STONE).hardness(0.20f).resistance(0.6f)), ItemGroup.BUILDING_BLOCKS);
 
 public static final Block ROSE_QUARTZ_PILLAR = registerBlock("rose_quartz_pillar",
                                                              new ModPillarBlock(FabricBlockSettings.of(Material.STONE).hardness(0.15f).resistance(0.6f)), ItemGroup.BUILDING_BLOCKS);

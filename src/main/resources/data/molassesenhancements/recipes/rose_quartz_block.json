@@ -1,15 +1,12 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "key": {
-      "#": {
-        "item": "molassesenhancements:rose_quartz_shard"
-      }
-    },
-    "pattern": [
-      "##",
-      "##"
-    ],
-    "result": {
-      "item": "molassesenhancements:rose_quartz_block"
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "molassesenhancements:rose_quartz_shard"
     }
+  },
+  "pattern": ["##", "##"],
+  "result": {
+    "item": "molassesenhancements:rose_quartz_block"
   }
+}
