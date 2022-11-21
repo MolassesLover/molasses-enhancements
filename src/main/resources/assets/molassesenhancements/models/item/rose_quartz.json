@@ -1,3 +1,6 @@
 {
-  "parent": "molassesenhancements:block/rose_quartz"
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "molassesenhancements:item/rose_quartz"
+  }
 }
