@@ -10,6 +10,8 @@ import net.minecraft.util.registry.Registry;
 public class ModItems {
 public static final Item NECO_ARC = registerItem("neco_arc",
                                                  new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+public static final Item ROSE_QUARTZ_SHARD = registerItem("rose_quartz_shard",
+                                                 new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
 private static Item registerItem(String name, Item item) {
     return Registry.register(Registry.ITEM, new Identifier(MolassesEnhancements.MOD_ID, name), item);
